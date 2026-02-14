@@ -71,6 +71,8 @@ The application includes:
 
 The app is deployed using **Streamlit Community Cloud** and connected directly to the GitHub repository.
 
+Link:- https://lw8tqrk599gitowbavdaga.streamlit.app/
+
 ---
 
 ## Deployment
