@@ -9,7 +9,7 @@ The objective of this assignment is to build, evaluate, and compare multiple mac
 ## b. Dataset Description
 
 The **Bank Marketing dataset** is obtained from the **UCI Machine Learning Repository**.  
-It contains **41,188 instances** with **20 input features** and **1 binary target variable (`y`)**, which indicates whether the client subscribed to a term deposit (`yes` / `no`).
+It contains **45,211 instances** with **16 input features** and **1 binary target variable (`y`)**, which indicates whether the client subscribed to a term deposit (`yes` / `no`).
 
 The dataset includes a mix of **numerical features** (such as age, campaign duration, and economic indicators) and **categorical features** (such as job, marital status, and education), making it suitable for evaluating different classification models.
 
