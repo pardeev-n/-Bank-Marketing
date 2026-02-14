@@ -28,9 +28,14 @@ uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
 if uploaded_file:
     df = pd.read_csv(uploaded_file, sep=";")
     df['y'] = df['y'].map({'yes': 1, 'no': 0})
-    
+
+    categorical_cols = df.select_dtypes(include='object').columns
+    for col in categorical_cols:
+       df[col] = df[col].astype('category').cat.codes
+
     X = df.drop('y', axis=1)
     y = df['y']
+
     
     model_name = st.selectbox("Select Model", list(models.keys()))
     model = models[model_name]
