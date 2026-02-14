@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Bank Marketing Classification", layout="wide")
 
-st.title("📊 Bank Marketing – Classification Models")
+st.title("Bank Marketing – Classification Models")
 
 st.markdown("Upload **test dataset only** and select a trained model to evaluate performance.")
 
