@@ -46,7 +46,7 @@ if uploaded_file:
     y_pred = model.predict(X)
     y_prob = model.predict_proba(X)[:, 1]
 
-    st.subheader("📈 Evaluation Metrics")
+    st.subheader("Evaluation Metrics")
     col1, col2, col3 = st.columns(3)
     col1.metric("Accuracy", round(accuracy_score(y, y_pred), 4))
     col2.metric("Precision", round(precision_score(y, y_pred), 4))
