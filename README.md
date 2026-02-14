@@ -79,12 +79,3 @@ The app is deployed using **Streamlit Community Cloud** and connected directly t
 2. Create a new app on Streamlit Community Cloud  
 3. Select the repository and `app.py` file  
 4. Deploy the application and access it via the generated public URL  
-
----
-
-## ✅ Final Compliance Check
-- ✔ Required README structure followed  
-- ✔ Comparison table included  
-- ✔ Model-wise observations included  
-- ✔ Matches notebook outputs  
-- ✔ Ready for PDF submission  
