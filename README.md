@@ -1,4 +1,4 @@
-# 📘 ML Assignment 2 – Bank Marketing Classification
+# ML Assignment 2 – Bank Marketing Classification
 
 ## a. Problem Statement
 
@@ -6,7 +6,7 @@ The objective of this assignment is to build, evaluate, and compare multiple mac
 
 ---
 
-## b. Dataset Description [1 Mark]
+## b. Dataset Description
 
 The **Bank Marketing dataset** is obtained from the **UCI Machine Learning Repository**.  
 It contains **41,188 instances** with **20 input features** and **1 binary target variable (`y`)**, which indicates whether the client subscribed to a term deposit (`yes` / `no`).
@@ -15,7 +15,7 @@ The dataset includes a mix of **numerical features** (such as age, campaign dura
 
 ---
 
-## c. Models Used & Evaluation Metrics [6 Marks]
+## c. Models Used & Evaluation Metrics
 
 The following six classification models were implemented on the same dataset:
 
@@ -47,7 +47,7 @@ Each model was evaluated using the following metrics:
 
 ---
 
-## d. Observations on Model Performance [3 Marks]
+## d. Observations on Model Performance
 
 | ML Model Name | Observation about model performance |
 |--------------|-------------------------------------|
@@ -79,12 +79,3 @@ The app is deployed using **Streamlit Community Cloud** and connected directly t
 2. Create a new app on Streamlit Community Cloud  
 3. Select the repository and `app.py` file  
 4. Deploy the application and access it via the generated public URL  
-
----
-
-## ✅ Final Compliance Check
-- ✔ Required README structure followed  
-- ✔ Metrics exactly match notebook output  
-- ✔ Comparison table included  
-- ✔ Model-wise observations included  
-- ✔ Ready for PDF submission  
